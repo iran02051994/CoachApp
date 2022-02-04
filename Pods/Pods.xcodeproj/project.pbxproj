@@ -1,0 +1,1096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015DD705CAE9D4E11837A97739D43690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		0333809F43EF1A5B5D8E74BD86B7985F /* BulletinBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FD27C957B2464B5358A137FA48C4D /* BulletinBoard-dummy.m */; };
+		18BF8BA97B4EB7270C1FACF466487FD8 /* BLTNBackgroundViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AA750A9EAADCEB5A82A19110360544 /* BLTNBackgroundViewStyle.swift */; };
+		201957AFE4622302A9C3584A9EC4B8E7 /* BLTNActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 748034D8F81634460179D142CD6B93C2 /* BLTNActionItem.m */; };
+		2169D5F4A75D37000EE089E88663E473 /* Pods-CoachApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9756862F5C9AD2E978642BD7AD8E2D27 /* Pods-CoachApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22CBF8CA54420D7B244377BFB38B2541 /* RoundedViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BB33DBA8F0F0829628EA0648DFCB3E /* RoundedViewProtocol.swift */; };
+		25316CA0E0F4488E7DDE2A57D6459800 /* BLTNInterfaceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6628238860AD368BF794F8A35EF76030 /* BLTNInterfaceBuilder.swift */; };
+		2982732EB9203759EB5323974F97E308 /* UIButton+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849709B51088840C2D83AC86C57F6C0A /* UIButton+BackgroundColor.swift */; };
+		325A79A5EDEED78C84AEA785007BFE3F /* Pods-CoachApp-CoachAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5637A1C4540D9E95D0FD9A46A4984698 /* Pods-CoachApp-CoachAppUITests-dummy.m */; };
+		33D49D411C8E68F8213E1256FC560EE7 /* ContinuousMaskLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E11D87BF6418B4AB3E645BEC726E63 /* ContinuousMaskLayer.swift */; };
+		38B433F11187D4B0980F7F61B39D3CAC /* UIView+SafeAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37055DFB792016887630E692F0DFE732 /* UIView+SafeAnchors.swift */; };
+		3CFBA241897EB7BC023F0C85E66C5B96 /* BLTNItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3192396ECD49EDA815E52AAE20A9DA29 /* BLTNItemAppearance.swift */; };
+		3EF06D21F2E345B30C5AB0010253B599 /* BulletinBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DECDC84112CD9322BFAC65FB2C806B /* BulletinBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44170E92AE6A2535E672F75E746DA523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		443BE6C43FCCE87D06FDBD7C8EA044E4 /* HighlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34BDCD3E18DEB43E699252B0E24BE50 /* HighlightButton.swift */; };
+		48911348081584235D329E5E533C4F77 /* BulletinSwipeInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11032F748ED7661BE342DE730CC6B349 /* BulletinSwipeInteractionController.swift */; };
+		4961280324B8ABE31C397293950CE2A2 /* BLTNActionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6BCBF7F7203F9C9C6A09BD1BAEDD1A /* BLTNActionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F266E815CEA922D9A29A8BA0664C1E9 /* BulletinDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542C6DB4091D1B5A745F06B50A266F6 /* BulletinDismissAnimationController.swift */; };
+		5FE5E5C5EC8FB686A7F61119665D69B6 /* BLTNBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = FB99702CC706D335C33454ACF02EA3B2 /* BLTNBoard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DEBC6CD678016B9BCA411B796A7FA6B /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF5A5E768986336186C6C266D0E2752 /* ActivityIndicator.swift */; };
+		743B517286CDD26174A5257AD8B57657 /* BLTNViewPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62672E1D5BB7DC2D37FF4FF541D7C55D /* BLTNViewPosition.swift */; };
+		76316D812323BC7EE5FFD187AFAACDF1 /* BLTNPageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0AA61B2C90DC0356DB886472C62AB4 /* BLTNPageItem.m */; };
+		7B2D2745043FFEC1CECF5378E244AD49 /* Highlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DA6A115E42298867AAF0048551D4EB /* Highlighter.swift */; };
+		9040F779DE7D35E847311A908EE77662 /* BLTNItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E52A9EF375A13FF3657126F1D937FCA /* BLTNItemManager.swift */; };
+		974C769C9AA46310ACE3792AC09ED0AB /* BLTNPageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2482A19FFCE03351FE3624DC6E94E936 /* BLTNPageItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BE8E5A293C9CF1604A6A2A8003E2E3E /* BulletinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395D563B8CE93801FF8814346BCCE99A /* BulletinViewController.swift */; };
+		9EB8216D199D08E3DEE1964AF4B7F56D /* Pods-CoachApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516B282E6E0FB669D94E8C5FB80455A /* Pods-CoachApp-dummy.m */; };
+		A73F811B795C0491CC1B1AA9EEF9BBB9 /* AnimationChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6144202253562F0D966F49F3D7114 /* AnimationChain.swift */; };
+		A75978225192A94000C9BB5EF04023BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		AD7331544CE78086F98DDB73C9E7524D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		AFA83E3455BD1A1B6601D800FF748DFF /* BLTNSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF15591161B871C2201CE56F4AEB529 /* BLTNSpacing.swift */; };
+		BFA3C005253AF9DF90D965B3D20DF12C /* BLTNHighlightButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B35805363CA158A44CF227FE8B51B4 /* BLTNHighlightButtonWrapper.swift */; };
+		C0F59E9DD6FB07E49D7F52CF1D8C93D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C230C35D74EDBFFC792DBDEE98E308D9 /* BulletinCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77321C17C1A45F28660A194EA928EEBF /* BulletinCloseButton.swift */; };
+		CAECE4EFCBA12EDB388761C84041786B /* BLTNTitleLabelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164FC562F770610F732202482D6C9FB6 /* BLTNTitleLabelContainer.swift */; };
+		CF6DC46DCC49D0228E4C473610453E8E /* BLTNBoardSwiftSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7B545A9C39A19FC7D23EB6BEF2EEE0 /* BLTNBoardSwiftSupport.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D1FFADD7EAF3E3D500C5A58B936A8A6E /* BulletinPresentationAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDA1A05200656FC329C30C0752A546A /* BulletinPresentationAnimationController.swift */; };
+		DCC667EF40BDDCBAE8B7EBE6771D2292 /* BLTNItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 97338F27188DFE58E37073C586EFF9B0 /* BLTNItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E51CB1F24C567E5D698E64E3932EC0EF /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15217F60CF5E1948A68B38669665BA43 /* Deprecations.swift */; };
+		EB1D9B0F3706671027B3217286D9BEB8 /* Pods-CoachApp-CoachAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC088495F069755E76C595144A9EB86 /* Pods-CoachApp-CoachAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC5F89A6F8FA561A85C6B38EBEF428CE /* BulletinBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1923179EF08F0572CC83D5457BABDD /* BulletinBackgroundView.swift */; };
+		EF546DF9A9382A34B590D2D31503F329 /* Pods-CoachAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E219741D5973F431F994AC289C841656 /* Pods-CoachAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0DC6129F012423CF4E9680A70FDCFB4 /* UIView+RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D3FECB33B67E5C08DD93D02AB1C616 /* UIView+RoundedView.swift */; };
+		F6B1891AAC9C35877E809353A9BA1EEA /* BLTNContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABA90730DC9E389A0843C786414D75F /* BLTNContainerView.swift */; };
+		FB49446A6B3A0260A06E9B65D4F11DC6 /* Pods-CoachAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 579CD7EE8EC336084A056C384C7091C0 /* Pods-CoachAppTests-dummy.m */; };
+		FDDB34A136D77E32BCCEB8CAC579DE2C /* UIColor+Luminance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BB947355FECA0EE8AA5D6339A49014 /* UIColor+Luminance.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		243DCBF2B8EC0D807FCF8DD5CD61DF21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CBE366D25C3692AAE548A9B678264C8;
+			remoteInfo = BulletinBoard;
+		};
+		66F3A1CB91F7AF41253A178B2E830E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CBE366D25C3692AAE548A9B678264C8;
+			remoteInfo = BulletinBoard;
+		};
+		E9108531B8CC8BE1D88BFB130775FF29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1A4190D0AC68BC32FEAC8B181EE9097;
+			remoteInfo = "Pods-CoachApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AA750A9EAADCEB5A82A19110360544 /* BLTNBackgroundViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNBackgroundViewStyle.swift; path = Sources/Appearance/BLTNBackgroundViewStyle.swift; sourceTree = "<group>"; };
+		11032F748ED7661BE342DE730CC6B349 /* BulletinSwipeInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinSwipeInteractionController.swift; path = Sources/Support/Animations/BulletinSwipeInteractionController.swift; sourceTree = "<group>"; };
+		12B35805363CA158A44CF227FE8B51B4 /* BLTNHighlightButtonWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNHighlightButtonWrapper.swift; path = Sources/Support/Views/Public/BLTNHighlightButtonWrapper.swift; sourceTree = "<group>"; };
+		1516B282E6E0FB669D94E8C5FB80455A /* Pods-CoachApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoachApp-dummy.m"; sourceTree = "<group>"; };
+		15217F60CF5E1948A68B38669665BA43 /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Sources/Deprecations.swift; sourceTree = "<group>"; };
+		164FC562F770610F732202482D6C9FB6 /* BLTNTitleLabelContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNTitleLabelContainer.swift; path = Sources/Support/Views/Public/BLTNTitleLabelContainer.swift; sourceTree = "<group>"; };
+		1ABA90730DC9E389A0843C786414D75F /* BLTNContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNContainerView.swift; path = Sources/Support/Views/Public/BLTNContainerView.swift; sourceTree = "<group>"; };
+		2197BD0400325CA7F4F88663808637EB /* Pods-CoachApp-CoachAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoachApp-CoachAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2482A19FFCE03351FE3624DC6E94E936 /* BLTNPageItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNPageItem.h; path = Sources/Models/BLTNPageItem.h; sourceTree = "<group>"; };
+		2553AF1DE270A5FB3DDB6D498C3ABBB6 /* Pods-CoachApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoachApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2EDA1A05200656FC329C30C0752A546A /* BulletinPresentationAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinPresentationAnimationController.swift; path = Sources/Support/Animations/BulletinPresentationAnimationController.swift; sourceTree = "<group>"; };
+		3192396ECD49EDA815E52AAE20A9DA29 /* BLTNItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNItemAppearance.swift; path = Sources/Appearance/BLTNItemAppearance.swift; sourceTree = "<group>"; };
+		33BB33DBA8F0F0829628EA0648DFCB3E /* RoundedViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundedViewProtocol.swift; path = Sources/Support/Views/Internal/ContinuousCorners/RoundedViewProtocol.swift; sourceTree = "<group>"; };
+		34830785F7CAF911A81F0C56CB208281 /* Pods-CoachApp-CoachAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CoachApp-CoachAppUITests"; path = Pods_CoachApp_CoachAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3545A9C76C5970C582FC8B66368BB62B /* Pods-CoachApp-CoachAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoachApp-CoachAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		37055DFB792016887630E692F0DFE732 /* UIView+SafeAnchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SafeAnchors.swift"; path = "Sources/Support/Helpers/UIView+SafeAnchors.swift"; sourceTree = "<group>"; };
+		388D85E2CEEDC8DF187A19B7CCB80412 /* BulletinBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BulletinBoard-prefix.pch"; sourceTree = "<group>"; };
+		395D563B8CE93801FF8814346BCCE99A /* BulletinViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinViewController.swift; path = Sources/Support/BulletinViewController.swift; sourceTree = "<group>"; };
+		3CC088495F069755E76C595144A9EB86 /* Pods-CoachApp-CoachAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoachApp-CoachAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		3EF1C5770DD82BE8FDB837D07E608BFA /* BulletinBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BulletinBoard.release.xcconfig; sourceTree = "<group>"; };
+		434160C8D76929631829D263CF002083 /* BulletinBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BulletinBoard.modulemap; sourceTree = "<group>"; };
+		499E4EA337A30D4EB8A1A54DDAAEDCB2 /* Pods-CoachApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoachApp.debug.xcconfig"; sourceTree = "<group>"; };
+		50F14B172A6DB2CEB2FF173BE0FF8634 /* Pods-CoachAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoachAppTests.modulemap"; sourceTree = "<group>"; };
+		5637A1C4540D9E95D0FD9A46A4984698 /* Pods-CoachApp-CoachAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoachApp-CoachAppUITests-dummy.m"; sourceTree = "<group>"; };
+		579CD7EE8EC336084A056C384C7091C0 /* Pods-CoachAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoachAppTests-dummy.m"; sourceTree = "<group>"; };
+		5D2921EA314BDB5820B39F7A428E092E /* Pods-CoachAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoachAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62672E1D5BB7DC2D37FF4FF541D7C55D /* BLTNViewPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNViewPosition.swift; path = Sources/Appearance/BLTNViewPosition.swift; sourceTree = "<group>"; };
+		6628238860AD368BF794F8A35EF76030 /* BLTNInterfaceBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNInterfaceBuilder.swift; path = Sources/Appearance/BLTNInterfaceBuilder.swift; sourceTree = "<group>"; };
+		6BEC93BDA107B5BCEFB5B0DF34EBD036 /* Pods-CoachApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoachApp-frameworks.sh"; sourceTree = "<group>"; };
+		6F3D3D1621AA240560EDF812D96E6FF9 /* Pods-CoachApp-CoachAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoachApp-CoachAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F5C784A71CD2A8D5FCD149129EDEE1E /* Pods-CoachApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoachApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		7373A2F760F5949903545E5FEB41C6C5 /* Pods-CoachAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CoachAppTests"; path = Pods_CoachAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		748034D8F81634460179D142CD6B93C2 /* BLTNActionItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLTNActionItem.m; path = Sources/Models/BLTNActionItem.m; sourceTree = "<group>"; };
+		7542C6DB4091D1B5A745F06B50A266F6 /* BulletinDismissAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinDismissAnimationController.swift; path = Sources/Support/Animations/BulletinDismissAnimationController.swift; sourceTree = "<group>"; };
+		77321C17C1A45F28660A194EA928EEBF /* BulletinCloseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinCloseButton.swift; path = Sources/Support/Views/Internal/BulletinCloseButton.swift; sourceTree = "<group>"; };
+		77AFDF328D6882E17C6AFFA718AE7A87 /* Pods-CoachApp-CoachAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoachApp-CoachAppUITests.modulemap"; sourceTree = "<group>"; };
+		77D3FECB33B67E5C08DD93D02AB1C616 /* UIView+RoundedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+RoundedView.swift"; path = "Sources/Support/Views/Internal/ContinuousCorners/UIView+RoundedView.swift"; sourceTree = "<group>"; };
+		849709B51088840C2D83AC86C57F6C0A /* UIButton+BackgroundColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+BackgroundColor.swift"; path = "Sources/Support/Helpers/UIButton+BackgroundColor.swift"; sourceTree = "<group>"; };
+		855FE12548DFFE54B82311A0ADB3D246 /* Pods-CoachAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoachAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86484620736EA36D8A2D983AB47BD8D4 /* Pods-CoachAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoachAppTests-Info.plist"; sourceTree = "<group>"; };
+		8A0AA61B2C90DC0356DB886472C62AB4 /* BLTNPageItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BLTNPageItem.m; path = Sources/Models/BLTNPageItem.m; sourceTree = "<group>"; };
+		8F00D9EB9D1F4234ACD55BDDE948B689 /* Pods-CoachApp-CoachAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoachApp-CoachAppUITests-Info.plist"; sourceTree = "<group>"; };
+		90DECDC84112CD9322BFAC65FB2C806B /* BulletinBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BulletinBoard-umbrella.h"; sourceTree = "<group>"; };
+		945C9727F4117B19DEE50B193DEEDA9D /* BulletinBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BulletinBoard-Info.plist"; sourceTree = "<group>"; };
+		96973130B96BDBFED6CAB89F02805B81 /* Pods-CoachApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoachApp.release.xcconfig"; sourceTree = "<group>"; };
+		97338F27188DFE58E37073C586EFF9B0 /* BLTNItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNItem.h; path = Sources/Models/BLTNItem.h; sourceTree = "<group>"; };
+		9756862F5C9AD2E978642BD7AD8E2D27 /* Pods-CoachApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoachApp-umbrella.h"; sourceTree = "<group>"; };
+		9CF5A5E768986336186C6C266D0E2752 /* ActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicator.swift; path = Sources/Support/Views/Internal/ActivityIndicator.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E52A9EF375A13FF3657126F1D937FCA /* BLTNItemManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNItemManager.swift; path = Sources/BLTNItemManager.swift; sourceTree = "<group>"; };
+		A1E11D87BF6418B4AB3E645BEC726E63 /* ContinuousMaskLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContinuousMaskLayer.swift; path = Sources/Support/Views/Internal/ContinuousCorners/ContinuousMaskLayer.swift; sourceTree = "<group>"; };
+		A3F4C1AC0BAE40AB943B86FC1D56C430 /* Pods-CoachApp-CoachAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoachApp-CoachAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC2E684D25EE22A790AD2DC7CCC59AD6 /* Pods-CoachAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoachAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B11FD27C957B2464B5358A137FA48C4D /* BulletinBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BulletinBoard-dummy.m"; sourceTree = "<group>"; };
+		B3FCFD8BADEACB082CD7DC14E4E7EAB5 /* Pods-CoachApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CoachApp"; path = Pods_CoachApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8DEBEAAF217E62236DC5533B4CE507 /* Pods-CoachApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoachApp.modulemap"; sourceTree = "<group>"; };
+		C4BB947355FECA0EE8AA5D6339A49014 /* UIColor+Luminance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Luminance.swift"; path = "Sources/Support/Helpers/UIColor+Luminance.swift"; sourceTree = "<group>"; };
+		C5FC4EC27B0970F708A6473BCFDA3C50 /* BulletinBoard */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BulletinBoard; path = BLTNBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1923179EF08F0572CC83D5457BABDD /* BulletinBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinBackgroundView.swift; path = Sources/Support/Views/Internal/BulletinBackgroundView.swift; sourceTree = "<group>"; };
+		CE5614720CF1F64A5AF3864871DF8078 /* Pods-CoachApp-CoachAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoachApp-CoachAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CEBDCFDD9E68BE2620A573FC0A41F266 /* Pods-CoachApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoachApp-Info.plist"; sourceTree = "<group>"; };
+		CFED091A88CAB38E25EBB9D2DE0434E1 /* BulletinBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BulletinBoard.debug.xcconfig; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D34BDCD3E18DEB43E699252B0E24BE50 /* HighlightButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HighlightButton.swift; path = Sources/Support/Views/Internal/HighlightButton.swift; sourceTree = "<group>"; };
+		DB7B545A9C39A19FC7D23EB6BEF2EEE0 /* BLTNBoardSwiftSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNBoardSwiftSupport.h; path = Sources/Support/BLTNBoardSwiftSupport.h; sourceTree = "<group>"; };
+		E219741D5973F431F994AC289C841656 /* Pods-CoachAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoachAppTests-umbrella.h"; sourceTree = "<group>"; };
+		E5E6144202253562F0D966F49F3D7114 /* AnimationChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationChain.swift; path = Sources/Support/Animations/AnimationChain.swift; sourceTree = "<group>"; };
+		EA6BCBF7F7203F9C9C6A09BD1BAEDD1A /* BLTNActionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNActionItem.h; path = Sources/Models/BLTNActionItem.h; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F062882058B1B92EB526E9B18E965906 /* Pods-CoachAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoachAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3DA6A115E42298867AAF0048551D4EB /* Highlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Highlighter.swift; path = Sources/Support/Views/Internal/Highlighter.swift; sourceTree = "<group>"; };
+		FB99702CC706D335C33454ACF02EA3B2 /* BLTNBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNBoard.h; path = Sources/BLTNBoard.h; sourceTree = "<group>"; };
+		FEF15591161B871C2201CE56F4AEB529 /* BLTNSpacing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNSpacing.swift; path = Sources/Appearance/BLTNSpacing.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		452171ED6C8246C0645CA96223715920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015DD705CAE9D4E11837A97739D43690 /* Foundation.framework in Frameworks */,
+				A75978225192A94000C9BB5EF04023BA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B015CA3AC2905E40F079B2FEEF2F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7331544CE78086F98DDB73C9E7524D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F865A3CFD5FB9A2A8DECC15643069B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F59E9DD6FB07E49D7F52CF1D8C93D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B704407CAB85FB1B51EEC5E847E4C6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44170E92AE6A2535E672F75E746DA523 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D66D4A977766CEE9DD9B1211FC6E971 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				229511DED232663C9EBD7C80C22151ED /* Pods-CoachApp */,
+				5D942A973E3183F5F7379971A033129D /* Pods-CoachApp-CoachAppUITests */,
+				5E6DC0BB51C757939F05943460F47491 /* Pods-CoachAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		128FC363E5E66C5C9260DC94937619E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81923BDFA5D9B435E3A903233DDBD468 /* BulletinBoard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		229511DED232663C9EBD7C80C22151ED /* Pods-CoachApp */ = {
+			isa = PBXGroup;
+			children = (
+				BB8DEBEAAF217E62236DC5533B4CE507 /* Pods-CoachApp.modulemap */,
+				2553AF1DE270A5FB3DDB6D498C3ABBB6 /* Pods-CoachApp-acknowledgements.markdown */,
+				6F5C784A71CD2A8D5FCD149129EDEE1E /* Pods-CoachApp-acknowledgements.plist */,
+				1516B282E6E0FB669D94E8C5FB80455A /* Pods-CoachApp-dummy.m */,
+				6BEC93BDA107B5BCEFB5B0DF34EBD036 /* Pods-CoachApp-frameworks.sh */,
+				CEBDCFDD9E68BE2620A573FC0A41F266 /* Pods-CoachApp-Info.plist */,
+				9756862F5C9AD2E978642BD7AD8E2D27 /* Pods-CoachApp-umbrella.h */,
+				499E4EA337A30D4EB8A1A54DDAAEDCB2 /* Pods-CoachApp.debug.xcconfig */,
+				96973130B96BDBFED6CAB89F02805B81 /* Pods-CoachApp.release.xcconfig */,
+			);
+			name = "Pods-CoachApp";
+			path = "Target Support Files/Pods-CoachApp";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D942A973E3183F5F7379971A033129D /* Pods-CoachApp-CoachAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77AFDF328D6882E17C6AFFA718AE7A87 /* Pods-CoachApp-CoachAppUITests.modulemap */,
+				2197BD0400325CA7F4F88663808637EB /* Pods-CoachApp-CoachAppUITests-acknowledgements.markdown */,
+				A3F4C1AC0BAE40AB943B86FC1D56C430 /* Pods-CoachApp-CoachAppUITests-acknowledgements.plist */,
+				5637A1C4540D9E95D0FD9A46A4984698 /* Pods-CoachApp-CoachAppUITests-dummy.m */,
+				CE5614720CF1F64A5AF3864871DF8078 /* Pods-CoachApp-CoachAppUITests-frameworks.sh */,
+				8F00D9EB9D1F4234ACD55BDDE948B689 /* Pods-CoachApp-CoachAppUITests-Info.plist */,
+				3CC088495F069755E76C595144A9EB86 /* Pods-CoachApp-CoachAppUITests-umbrella.h */,
+				3545A9C76C5970C582FC8B66368BB62B /* Pods-CoachApp-CoachAppUITests.debug.xcconfig */,
+				6F3D3D1621AA240560EDF812D96E6FF9 /* Pods-CoachApp-CoachAppUITests.release.xcconfig */,
+			);
+			name = "Pods-CoachApp-CoachAppUITests";
+			path = "Target Support Files/Pods-CoachApp-CoachAppUITests";
+			sourceTree = "<group>";
+		};
+		5E6DC0BB51C757939F05943460F47491 /* Pods-CoachAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				50F14B172A6DB2CEB2FF173BE0FF8634 /* Pods-CoachAppTests.modulemap */,
+				855FE12548DFFE54B82311A0ADB3D246 /* Pods-CoachAppTests-acknowledgements.markdown */,
+				AC2E684D25EE22A790AD2DC7CCC59AD6 /* Pods-CoachAppTests-acknowledgements.plist */,
+				579CD7EE8EC336084A056C384C7091C0 /* Pods-CoachAppTests-dummy.m */,
+				86484620736EA36D8A2D983AB47BD8D4 /* Pods-CoachAppTests-Info.plist */,
+				E219741D5973F431F994AC289C841656 /* Pods-CoachAppTests-umbrella.h */,
+				5D2921EA314BDB5820B39F7A428E092E /* Pods-CoachAppTests.debug.xcconfig */,
+				F062882058B1B92EB526E9B18E965906 /* Pods-CoachAppTests.release.xcconfig */,
+			);
+			name = "Pods-CoachAppTests";
+			path = "Target Support Files/Pods-CoachAppTests";
+			sourceTree = "<group>";
+		};
+		81923BDFA5D9B435E3A903233DDBD468 /* BulletinBoard */ = {
+			isa = PBXGroup;
+			children = (
+				9CF5A5E768986336186C6C266D0E2752 /* ActivityIndicator.swift */,
+				E5E6144202253562F0D966F49F3D7114 /* AnimationChain.swift */,
+				EA6BCBF7F7203F9C9C6A09BD1BAEDD1A /* BLTNActionItem.h */,
+				748034D8F81634460179D142CD6B93C2 /* BLTNActionItem.m */,
+				03AA750A9EAADCEB5A82A19110360544 /* BLTNBackgroundViewStyle.swift */,
+				FB99702CC706D335C33454ACF02EA3B2 /* BLTNBoard.h */,
+				DB7B545A9C39A19FC7D23EB6BEF2EEE0 /* BLTNBoardSwiftSupport.h */,
+				1ABA90730DC9E389A0843C786414D75F /* BLTNContainerView.swift */,
+				12B35805363CA158A44CF227FE8B51B4 /* BLTNHighlightButtonWrapper.swift */,
+				6628238860AD368BF794F8A35EF76030 /* BLTNInterfaceBuilder.swift */,
+				97338F27188DFE58E37073C586EFF9B0 /* BLTNItem.h */,
+				3192396ECD49EDA815E52AAE20A9DA29 /* BLTNItemAppearance.swift */,
+				9E52A9EF375A13FF3657126F1D937FCA /* BLTNItemManager.swift */,
+				2482A19FFCE03351FE3624DC6E94E936 /* BLTNPageItem.h */,
+				8A0AA61B2C90DC0356DB886472C62AB4 /* BLTNPageItem.m */,
+				FEF15591161B871C2201CE56F4AEB529 /* BLTNSpacing.swift */,
+				164FC562F770610F732202482D6C9FB6 /* BLTNTitleLabelContainer.swift */,
+				62672E1D5BB7DC2D37FF4FF541D7C55D /* BLTNViewPosition.swift */,
+				CD1923179EF08F0572CC83D5457BABDD /* BulletinBackgroundView.swift */,
+				77321C17C1A45F28660A194EA928EEBF /* BulletinCloseButton.swift */,
+				7542C6DB4091D1B5A745F06B50A266F6 /* BulletinDismissAnimationController.swift */,
+				2EDA1A05200656FC329C30C0752A546A /* BulletinPresentationAnimationController.swift */,
+				11032F748ED7661BE342DE730CC6B349 /* BulletinSwipeInteractionController.swift */,
+				395D563B8CE93801FF8814346BCCE99A /* BulletinViewController.swift */,
+				A1E11D87BF6418B4AB3E645BEC726E63 /* ContinuousMaskLayer.swift */,
+				15217F60CF5E1948A68B38669665BA43 /* Deprecations.swift */,
+				D34BDCD3E18DEB43E699252B0E24BE50 /* HighlightButton.swift */,
+				F3DA6A115E42298867AAF0048551D4EB /* Highlighter.swift */,
+				33BB33DBA8F0F0829628EA0648DFCB3E /* RoundedViewProtocol.swift */,
+				849709B51088840C2D83AC86C57F6C0A /* UIButton+BackgroundColor.swift */,
+				C4BB947355FECA0EE8AA5D6339A49014 /* UIColor+Luminance.swift */,
+				77D3FECB33B67E5C08DD93D02AB1C616 /* UIView+RoundedView.swift */,
+				37055DFB792016887630E692F0DFE732 /* UIView+SafeAnchors.swift */,
+				F95372883F476146E551E30E4FFC3BD2 /* Support Files */,
+			);
+			name = BulletinBoard;
+			path = BulletinBoard;
+			sourceTree = "<group>";
+		};
+		8E772E281EC158EF38048B920E92EA62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5FC4EC27B0970F708A6473BCFDA3C50 /* BulletinBoard */,
+				B3FCFD8BADEACB082CD7DC14E4E7EAB5 /* Pods-CoachApp */,
+				34830785F7CAF911A81F0C56CB208281 /* Pods-CoachApp-CoachAppUITests */,
+				7373A2F760F5949903545E5FEB41C6C5 /* Pods-CoachAppTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				128FC363E5E66C5C9260DC94937619E4 /* Pods */,
+				8E772E281EC158EF38048B920E92EA62 /* Products */,
+				0D66D4A977766CEE9DD9B1211FC6E971 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F95372883F476146E551E30E4FFC3BD2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				434160C8D76929631829D263CF002083 /* BulletinBoard.modulemap */,
+				B11FD27C957B2464B5358A137FA48C4D /* BulletinBoard-dummy.m */,
+				945C9727F4117B19DEE50B193DEEDA9D /* BulletinBoard-Info.plist */,
+				388D85E2CEEDC8DF187A19B7CCB80412 /* BulletinBoard-prefix.pch */,
+				90DECDC84112CD9322BFAC65FB2C806B /* BulletinBoard-umbrella.h */,
+				CFED091A88CAB38E25EBB9D2DE0434E1 /* BulletinBoard.debug.xcconfig */,
+				3EF1C5770DD82BE8FDB837D07E608BFA /* BulletinBoard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BulletinBoard";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1933EA09919AA58A9FFC64EEC6D4A810 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF546DF9A9382A34B590D2D31503F329 /* Pods-CoachAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40AD784DF36577C4E623A58C9B859D00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4961280324B8ABE31C397293950CE2A2 /* BLTNActionItem.h in Headers */,
+				5FE5E5C5EC8FB686A7F61119665D69B6 /* BLTNBoard.h in Headers */,
+				CF6DC46DCC49D0228E4C473610453E8E /* BLTNBoardSwiftSupport.h in Headers */,
+				DCC667EF40BDDCBAE8B7EBE6771D2292 /* BLTNItem.h in Headers */,
+				974C769C9AA46310ACE3792AC09ED0AB /* BLTNPageItem.h in Headers */,
+				3EF06D21F2E345B30C5AB0010253B599 /* BulletinBoard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47A8517E3781B5A24FDA105CE39D1EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2169D5F4A75D37000EE089E88663E473 /* Pods-CoachApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7ED2B7740AA0E2DDF6E5D98BB47B2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1D9B0F3706671027B3217286D9BEB8 /* Pods-CoachApp-CoachAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3CBE366D25C3692AAE548A9B678264C8 /* BulletinBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B32CADC92DCA5FB0A1F40A1069C70A5 /* Build configuration list for PBXNativeTarget "BulletinBoard" */;
+			buildPhases = (
+				40AD784DF36577C4E623A58C9B859D00 /* Headers */,
+				166B4AFBECAC24F6B7BCCCA05EBB3FC1 /* Sources */,
+				452171ED6C8246C0645CA96223715920 /* Frameworks */,
+				D548246C222A2B95F89FC74A55FAC4AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BulletinBoard;
+			productName = BLTNBoard;
+			productReference = C5FC4EC27B0970F708A6473BCFDA3C50 /* BulletinBoard */;
+			productType = "com.apple.product-type.framework";
+		};
+		40425190F644CA68B33B61035C0E9AB3 /* Pods-CoachAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4E6077571577119B9035EEDA84C83E /* Build configuration list for PBXNativeTarget "Pods-CoachAppTests" */;
+			buildPhases = (
+				1933EA09919AA58A9FFC64EEC6D4A810 /* Headers */,
+				B6A2155E8C7E94C6D01714BD5BF08E93 /* Sources */,
+				9F865A3CFD5FB9A2A8DECC15643069B8 /* Frameworks */,
+				A9A31179B463F6855D33B53195F4BB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC8CD7FCE9261C9FBB08557B65A89DF4 /* PBXTargetDependency */,
+			);
+			name = "Pods-CoachAppTests";
+			productName = Pods_CoachAppTests;
+			productReference = 7373A2F760F5949903545E5FEB41C6C5 /* Pods-CoachAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		71A9EB2ABBF3D3CD0E3FA50BC6FE9841 /* Pods-CoachApp-CoachAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF60F78498F3BC35DA53B7ABAB71090 /* Build configuration list for PBXNativeTarget "Pods-CoachApp-CoachAppUITests" */;
+			buildPhases = (
+				DB7ED2B7740AA0E2DDF6E5D98BB47B2A /* Headers */,
+				571EBACD35A623C64C54D1A5C780706F /* Sources */,
+				52B015CA3AC2905E40F079B2FEEF2F9F /* Frameworks */,
+				BDA08CE48AF47A790CED3373D7FB4A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A236C61F9AB733FC752626E498DCC0E /* PBXTargetDependency */,
+			);
+			name = "Pods-CoachApp-CoachAppUITests";
+			productName = Pods_CoachApp_CoachAppUITests;
+			productReference = 34830785F7CAF911A81F0C56CB208281 /* Pods-CoachApp-CoachAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1A4190D0AC68BC32FEAC8B181EE9097 /* Pods-CoachApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DDDA8E4B66A29DB2AFBB1D734E918E /* Build configuration list for PBXNativeTarget "Pods-CoachApp" */;
+			buildPhases = (
+				A47A8517E3781B5A24FDA105CE39D1EA /* Headers */,
+				577AB29B3D68248E6C7B8DBCDE570B47 /* Sources */,
+				B704407CAB85FB1B51EEC5E847E4C6AB /* Frameworks */,
+				2694208987335C9CB22A0EFBEB89FC40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02797A2015CEAFFCA3FC9A4AD15B3BFC /* PBXTargetDependency */,
+			);
+			name = "Pods-CoachApp";
+			productName = Pods_CoachApp;
+			productReference = B3FCFD8BADEACB082CD7DC14E4E7EAB5 /* Pods-CoachApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8E772E281EC158EF38048B920E92EA62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CBE366D25C3692AAE548A9B678264C8 /* BulletinBoard */,
+				D1A4190D0AC68BC32FEAC8B181EE9097 /* Pods-CoachApp */,
+				71A9EB2ABBF3D3CD0E3FA50BC6FE9841 /* Pods-CoachApp-CoachAppUITests */,
+				40425190F644CA68B33B61035C0E9AB3 /* Pods-CoachAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2694208987335C9CB22A0EFBEB89FC40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A31179B463F6855D33B53195F4BB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA08CE48AF47A790CED3373D7FB4A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D548246C222A2B95F89FC74A55FAC4AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		166B4AFBECAC24F6B7BCCCA05EBB3FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEBC6CD678016B9BCA411B796A7FA6B /* ActivityIndicator.swift in Sources */,
+				A73F811B795C0491CC1B1AA9EEF9BBB9 /* AnimationChain.swift in Sources */,
+				201957AFE4622302A9C3584A9EC4B8E7 /* BLTNActionItem.m in Sources */,
+				18BF8BA97B4EB7270C1FACF466487FD8 /* BLTNBackgroundViewStyle.swift in Sources */,
+				F6B1891AAC9C35877E809353A9BA1EEA /* BLTNContainerView.swift in Sources */,
+				BFA3C005253AF9DF90D965B3D20DF12C /* BLTNHighlightButtonWrapper.swift in Sources */,
+				25316CA0E0F4488E7DDE2A57D6459800 /* BLTNInterfaceBuilder.swift in Sources */,
+				3CFBA241897EB7BC023F0C85E66C5B96 /* BLTNItemAppearance.swift in Sources */,
+				9040F779DE7D35E847311A908EE77662 /* BLTNItemManager.swift in Sources */,
+				76316D812323BC7EE5FFD187AFAACDF1 /* BLTNPageItem.m in Sources */,
+				AFA83E3455BD1A1B6601D800FF748DFF /* BLTNSpacing.swift in Sources */,
+				CAECE4EFCBA12EDB388761C84041786B /* BLTNTitleLabelContainer.swift in Sources */,
+				743B517286CDD26174A5257AD8B57657 /* BLTNViewPosition.swift in Sources */,
+				EC5F89A6F8FA561A85C6B38EBEF428CE /* BulletinBackgroundView.swift in Sources */,
+				0333809F43EF1A5B5D8E74BD86B7985F /* BulletinBoard-dummy.m in Sources */,
+				C230C35D74EDBFFC792DBDEE98E308D9 /* BulletinCloseButton.swift in Sources */,
+				5F266E815CEA922D9A29A8BA0664C1E9 /* BulletinDismissAnimationController.swift in Sources */,
+				D1FFADD7EAF3E3D500C5A58B936A8A6E /* BulletinPresentationAnimationController.swift in Sources */,
+				48911348081584235D329E5E533C4F77 /* BulletinSwipeInteractionController.swift in Sources */,
+				9BE8E5A293C9CF1604A6A2A8003E2E3E /* BulletinViewController.swift in Sources */,
+				33D49D411C8E68F8213E1256FC560EE7 /* ContinuousMaskLayer.swift in Sources */,
+				E51CB1F24C567E5D698E64E3932EC0EF /* Deprecations.swift in Sources */,
+				443BE6C43FCCE87D06FDBD7C8EA044E4 /* HighlightButton.swift in Sources */,
+				7B2D2745043FFEC1CECF5378E244AD49 /* Highlighter.swift in Sources */,
+				22CBF8CA54420D7B244377BFB38B2541 /* RoundedViewProtocol.swift in Sources */,
+				2982732EB9203759EB5323974F97E308 /* UIButton+BackgroundColor.swift in Sources */,
+				FDDB34A136D77E32BCCEB8CAC579DE2C /* UIColor+Luminance.swift in Sources */,
+				F0DC6129F012423CF4E9680A70FDCFB4 /* UIView+RoundedView.swift in Sources */,
+				38B433F11187D4B0980F7F61B39D3CAC /* UIView+SafeAnchors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571EBACD35A623C64C54D1A5C780706F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325A79A5EDEED78C84AEA785007BFE3F /* Pods-CoachApp-CoachAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577AB29B3D68248E6C7B8DBCDE570B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB8216D199D08E3DEE1964AF4B7F56D /* Pods-CoachApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A2155E8C7E94C6D01714BD5BF08E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB49446A6B3A0260A06E9B65D4F11DC6 /* Pods-CoachAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02797A2015CEAFFCA3FC9A4AD15B3BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BulletinBoard;
+			target = 3CBE366D25C3692AAE548A9B678264C8 /* BulletinBoard */;
+			targetProxy = 66F3A1CB91F7AF41253A178B2E830E65 /* PBXContainerItemProxy */;
+		};
+		1A236C61F9AB733FC752626E498DCC0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BulletinBoard;
+			target = 3CBE366D25C3692AAE548A9B678264C8 /* BulletinBoard */;
+			targetProxy = 243DCBF2B8EC0D807FCF8DD5CD61DF21 /* PBXContainerItemProxy */;
+		};
+		DC8CD7FCE9261C9FBB08557B65A89DF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CoachApp";
+			target = D1A4190D0AC68BC32FEAC8B181EE9097 /* Pods-CoachApp */;
+			targetProxy = E9108531B8CC8BE1D88BFB130775FF29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		056805A432430C166075517D41B776A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499E4EA337A30D4EB8A1A54DDAAEDCB2 /* Pods-CoachApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoachApp/Pods-CoachApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoachApp/Pods-CoachApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0AB2469944FCE3C9FB10EDEDCF36F513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96973130B96BDBFED6CAB89F02805B81 /* Pods-CoachApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoachApp/Pods-CoachApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoachApp/Pods-CoachApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FFF251AAEE63E46D6C94CFDBE2252F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3545A9C76C5970C582FC8B66368BB62B /* Pods-CoachApp-CoachAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoachApp-CoachAppUITests/Pods-CoachApp-CoachAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoachApp-CoachAppUITests/Pods-CoachApp-CoachAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		517F9E228518A85FE42140069A846FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F062882058B1B92EB526E9B18E965906 /* Pods-CoachAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoachAppTests/Pods-CoachAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoachAppTests/Pods-CoachAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CB58A9675DD272AA1E934D45A0A8D2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFED091A88CAB38E25EBB9D2DE0434E1 /* BulletinBoard.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BulletinBoard/BulletinBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BulletinBoard/BulletinBoard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BulletinBoard/BulletinBoard.modulemap";
+				PRODUCT_MODULE_NAME = BLTNBoard;
+				PRODUCT_NAME = BLTNBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E0CEB002E7451F9B3E31209D5D44DF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D2921EA314BDB5820B39F7A428E092E /* Pods-CoachAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoachAppTests/Pods-CoachAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoachAppTests/Pods-CoachAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2217B40A52E822C70885AFD03860E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF1C5770DD82BE8FDB837D07E608BFA /* BulletinBoard.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BulletinBoard/BulletinBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BulletinBoard/BulletinBoard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BulletinBoard/BulletinBoard.modulemap";
+				PRODUCT_MODULE_NAME = BLTNBoard;
+				PRODUCT_NAME = BLTNBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F350C10FCF09FE34B13746D24AD5574F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3D3D1621AA240560EDF812D96E6FF9 /* Pods-CoachApp-CoachAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoachApp-CoachAppUITests/Pods-CoachApp-CoachAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoachApp-CoachAppUITests/Pods-CoachApp-CoachAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B32CADC92DCA5FB0A1F40A1069C70A5 /* Build configuration list for PBXNativeTarget "BulletinBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB58A9675DD272AA1E934D45A0A8D2F4 /* Debug */,
+				E2217B40A52E822C70885AFD03860E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4E6077571577119B9035EEDA84C83E /* Build configuration list for PBXNativeTarget "Pods-CoachAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CEB002E7451F9B3E31209D5D44DF53 /* Debug */,
+				517F9E228518A85FE42140069A846FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF60F78498F3BC35DA53B7ABAB71090 /* Build configuration list for PBXNativeTarget "Pods-CoachApp-CoachAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFF251AAEE63E46D6C94CFDBE2252F8 /* Debug */,
+				F350C10FCF09FE34B13746D24AD5574F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98DDDA8E4B66A29DB2AFBB1D734E918E /* Build configuration list for PBXNativeTarget "Pods-CoachApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056805A432430C166075517D41B776A1 /* Debug */,
+				0AB2469944FCE3C9FB10EDEDCF36F513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
