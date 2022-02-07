@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 
-
 class AccessWithViewController: UIViewController{
 
     // MARK: - IBOutlets

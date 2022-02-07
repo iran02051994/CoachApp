@@ -6,6 +6,7 @@ target 'CoachApp' do
   use_frameworks!
 
   pod 'BulletinBoard'
+  pod 'Charts'
 
   target 'CoachAppTests' do
     inherit! :search_paths

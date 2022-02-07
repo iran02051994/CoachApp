@@ -18,6 +18,9 @@
 		8437582627A3AF1800BDF0EE /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437582527A3AF1800BDF0EE /* GoalsViewController.swift */; };
 		8437582827A3B80200BDF0EE /* SuscriptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437582727A3B80200BDF0EE /* SuscriptionsViewController.swift */; };
 		8437582A27A3BC4F00BDF0EE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437582927A3BC4F00BDF0EE /* SettingsViewController.swift */; };
+		84F0903327ADB0A900DE04B7 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0903227ADB0A900DE04B7 /* ChartViewController.swift */; };
+		84F0903827ADCF4D00DE04B7 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0903727ADCF4D00DE04B7 /* CalendarCell.swift */; };
+		84F0903A27ADD35600DE04B7 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0903927ADD35600DE04B7 /* CalendarHelper.swift */; };
 		95819304278CF5FF00989BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95819303278CF5FF00989BF3 /* AppDelegate.swift */; };
 		95819306278CF5FF00989BF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95819305278CF5FF00989BF3 /* SceneDelegate.swift */; };
 		95819308278CF5FF00989BF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95819307278CF5FF00989BF3 /* ViewController.swift */; };
@@ -79,6 +82,9 @@
 		8437582527A3AF1800BDF0EE /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
 		8437582727A3B80200BDF0EE /* SuscriptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuscriptionsViewController.swift; sourceTree = "<group>"; };
 		8437582927A3BC4F00BDF0EE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		84F0903227ADB0A900DE04B7 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		84F0903727ADCF4D00DE04B7 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		84F0903927ADD35600DE04B7 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 		8FF20FEBCCF234700F3AFED2 /* Pods-CoachApp-CoachAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachApp-CoachAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-CoachApp-CoachAppUITests/Pods-CoachApp-CoachAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		95819300278CF5FF00989BF3 /* CoachApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoachApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95819303278CF5FF00989BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -234,6 +240,9 @@
 				8437582527A3AF1800BDF0EE /* GoalsViewController.swift */,
 				8437582727A3B80200BDF0EE /* SuscriptionsViewController.swift */,
 				8437582927A3BC4F00BDF0EE /* SettingsViewController.swift */,
+				84F0903227ADB0A900DE04B7 /* ChartViewController.swift */,
+				84F0903727ADCF4D00DE04B7 /* CalendarCell.swift */,
+				84F0903927ADD35600DE04B7 /* CalendarHelper.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -499,6 +508,7 @@
 			files = (
 				8437582427A3A64E00BDF0EE /* GaleryViewController.swift in Sources */,
 				8437582627A3AF1800BDF0EE /* GoalsViewController.swift in Sources */,
+				84F0903327ADB0A900DE04B7 /* ChartViewController.swift in Sources */,
 				95D8F8C2279A9BAE00F41827 /* CustomCellChallenge.swift in Sources */,
 				95819308278CF5FF00989BF3 /* ViewController.swift in Sources */,
 				95D8F8BC279A882B00F41827 /* ExercisesDescriptionViewController.swift in Sources */,
@@ -515,7 +525,9 @@
 				95D8F8C4279B489200F41827 /* CalendarViewController.swift in Sources */,
 				95D8F8BA27994CF700F41827 /* CustomCell.swift in Sources */,
 				8437582227A3A29000BDF0EE /* NotificationsViewController.swift in Sources */,
+				84F0903827ADCF4D00DE04B7 /* CalendarCell.swift in Sources */,
 				8437582027A2405D00BDF0EE /* ProfileViewController.swift in Sources */,
+				84F0903A27ADD35600DE04B7 /* CalendarHelper.swift in Sources */,
 				95819342278EAD3100989BF3 /* DesiredWeightViewController.swift in Sources */,
 				95819340278EACB300989BF3 /* PhysicalConditionViewController.swift in Sources */,
 				95819304278CF5FF00989BF3 /* AppDelegate.swift in Sources */,
@@ -704,6 +716,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4MERUEP35;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoachApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -733,6 +746,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4MERUEP35;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoachApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
